@@ -8,6 +8,7 @@ namespace Testovoe3
     {
         [SerializeField] private List<LevelSettings> _levelSettings;
         [SerializeField] private AudioClip _backgroundMusic;
+        //Delete all level results
         [SerializeField] private bool _clearHistory;
 
         private void Start()
