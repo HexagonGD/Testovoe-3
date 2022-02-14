@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Flesh Royal
   _scoreForOpen: 4
-  _background: {fileID: 21300000, guid: 691f031d9e74c6a4fa06a616242538ec, type: 3}
+  _background: {fileID: 21300000, guid: a23cf05454e58cd4c959d9016214dc46, type: 3}
   _item: {fileID: 21300000, guid: c9da3f1c082b3bb46b2f92bc6cc93512, type: 3}
   _seconds: 12
   _clickCountForWin: 30

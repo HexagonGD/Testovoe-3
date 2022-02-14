@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Quartet
   _scoreForOpen: 3
-  _background: {fileID: 21300000, guid: c8aeca082b1019b4e9d1d4ce06dfced0, type: 3}
+  _background: {fileID: 21300000, guid: c8ef91fa007a2c04781aa29cb18faccc, type: 3}
   _item: {fileID: 21300000, guid: e08f0745e7952de4091799b12450706c, type: 3}
   _seconds: 12
   _clickCountForWin: 25

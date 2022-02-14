@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: Level Settings 1
   m_EditorClassIdentifier: 
   _name: First
-  _background: {fileID: 21300000, guid: 691f031d9e74c6a4fa06a616242538ec, type: 3}
+  _scoreForOpen: 0
+  _background: {fileID: 21300000, guid: 1bd1087dd9b2d1443b18affb97a8a126, type: 3}
   _item: {fileID: 21300000, guid: e08f0745e7952de4091799b12450706c, type: 3}
   _seconds: 12
   _clickCountForWin: 10

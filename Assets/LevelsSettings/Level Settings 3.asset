@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: Third
   _scoreForOpen: 2
-  _background: {fileID: 21300000, guid: c8aeca082b1019b4e9d1d4ce06dfced0, type: 3}
+  _background: {fileID: 21300000, guid: 9ff11ba60a8954147a8c733418a93d1b, type: 3}
   _item: {fileID: 21300000, guid: 362e2945688fbf34ab6f066420995c86, type: 3}
   _seconds: 12
   _clickCountForWin: 20
