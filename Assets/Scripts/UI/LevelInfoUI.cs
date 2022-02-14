@@ -5,6 +5,7 @@ namespace Testovoe3
 {
     public class LevelInfoUI : MonoBehaviour
     {
+        [SerializeField] private Image _backgroundLevel;
         [SerializeField] private Text _levelName;
         [SerializeField] private Button _startLevelButton;
 
@@ -13,10 +14,12 @@ namespace Testovoe3
 
         public void Show(Level level)
         {
+            _backgroundLevel.sprite = level.LevelSettings.Background;
             gameObject.SetActive(true);
             _levelName.text = level.LevelSettings.Name;
             _stars.SetStars(level.LevelSettings.Difficult);
             _statisticUI.Show(level.LevelResult);
+
             _startLevelButton.onClick.AddListener(() =>
             {
                 GameManager.Instance.LevelManager.StartLevel(level);

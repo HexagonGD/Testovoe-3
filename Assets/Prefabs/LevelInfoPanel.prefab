@@ -1116,6 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c519063b5df9d40ba2e0c0a7d0cd8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _backgroundLevel: {fileID: 8559767873374962319}
   _levelName: {fileID: 8559767872955507844}
   _startLevelButton: {fileID: 5624411946436605506}
   _stars: {fileID: 5638199691174215396}
